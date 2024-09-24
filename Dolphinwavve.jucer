@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tyKynz" name="Dolphinwavve" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              defines="JUCE_DISPLAY_SPLASH_SCREEN=0">
+  <MAINGROUP id="OgHxG6" name="Dolphinwavve">
+    <GROUP id="{7F30C778-1D3C-4799-80CE-56C043E5BA30}" name="Source">
+      <FILE id="NggTYO" name="EnvelopeComponent.cpp" compile="1" resource="0"
+            file="Source/EnvelopeComponent.cpp"/>
+      <FILE id="Vj4mIf" name="EnvelopeComponent.h" compile="0" resource="0"
+            file="Source/EnvelopeComponent.h"/>
+      <FILE id="MsEP0B" name="Envelope.cpp" compile="1" resource="0" file="Source/Envelope.cpp"/>
+      <FILE id="AODJgo" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
+      <FILE id="MJz7xr" name="OscComponent.cpp" compile="1" resource="0"
+            file="Source/OscComponent.cpp"/>
+      <FILE id="FDl7QK" name="OscComponent.h" compile="0" resource="0" file="Source/OscComponent.h"/>
+      <FILE id="wROjox" name="OscVoice.h" compile="0" resource="0" file="Source/OscVoice.h"/>
+      <FILE id="w88KaG" name="OscVoice.cpp" compile="1" resource="0" file="Source/OscVoice.cpp"/>
+      <FILE id="jYXQQm" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="IUj5CF" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="wzNnkv" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="SFPHQb" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ACyedg" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="XxnHe6" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="QwmoU9" name="dolphinwavve.png" compile="0" resource="1"
+          file="../../../Pictures/dolphinwavve.png"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Dolphinwavve"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Dolphinwavve"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
