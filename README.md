@@ -1,6 +1,6 @@
 # Dolphinwavve
 
-Dolphinwavve is an additive synthesizer project that leverages the JUCE library. It allows users to generate waveforms by summing partials of Fourier series for various wave types, providing a powerful tool for sound design.
+Dolphinwavve is an additive synthesizer project that leverages the JUCE library. It allows for the generation of waveforms by summing partials of Fourier series for various wave types.
 
 ## Features
 
