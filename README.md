@@ -12,7 +12,7 @@ Dolphinwavve is an additive synthesizer project that leverages the JUCE library.
 
 ## Getting Started
 
-Ensure you have the JUCE library and its Projucer project manger installed, and then point it to the cloned directory. Alternatively, access the .vst3 from the build directory and use your preferred plugin host.
+Ensure you have the JUCE library and its Projucer project manger installed, and then point it to the cloned directory.
 
 ## License
 
